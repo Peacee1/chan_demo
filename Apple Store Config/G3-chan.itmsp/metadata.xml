@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package version="software5.7" xmlns="http://apple.com/itunes/importer">
+  <provider>K5NJ7JKD69</provider>
+  <team_id>K5NJ7JKD69</team_id>
+  <software>
+    <vendor_id>G3-chan</vendor_id>
+    <software_metadata>
+      <in_app_purchases>
+        <in_app_purchase>
+          <product_id>com.chan.coin10k</product_id>
+          <reference_name>com.chan.coin10k</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>1</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Tập sự</title>
+              <description>Gói nhỏ nhất cho người chơi thử nghiệm</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin55k</product_id>
+          <reference_name>com.chan.coin55k</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>2</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Khởi đầu</title>
+              <description>Bonus 20%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin120k</product_id>
+          <reference_name>com.chan.coin120k</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>3</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Giải trí</title>
+              <description>Bonus 35%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin300k</product_id>
+          <reference_name>com.chan.coin300k</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>10</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Đam mê</title>
+              <description>Bonus 50%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin800k</product_id>
+          <reference_name>com.chan.coin800k</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>25</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Cao thủ</title>
+              <description>Bonus 60%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin2m</product_id>
+          <reference_name>com.chan.coin2m</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>50</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Đại gia</title>
+              <description>Bonus 80%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin5m</product_id>
+          <reference_name>com.chan.coin5m</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>60</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói VIP</title>
+              <description>Bonus 100%</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>com.chan.coin12m</product_id>
+          <reference_name>com.chan.coin12m</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>72</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Gói Kim cương</title>
+              <description>Gói lớn nhất, lời nhiều nhất, hướng đến người chơi nạp mạnh.</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>ChatGPT Image 09_39_24 29 thg 9, 2025.png</file_name>
+            <size>1721758</size>
+            <checksum>3f10e915316b756ea244a316c086f88d</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+      </in_app_purchases>
+    </software_metadata>
+  </software>
+</package>

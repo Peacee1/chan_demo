@@ -1,48 +1,82 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Purchasing;
+using UnityEngine.Purchasing.Extension;
 
+/// <summary>
+/// Shop Demo Item - Quản lý các event handlers cho Unity Purchasing
+/// </summary>
 public class ShopItemDemo : MonoBehaviour
 {
-    public string itemName = "Gói 100 coins";  // tên item hiển thị
-    public int coinAmount = 100;               // số coin sẽ cộng khi demo
-    public Text messageText;                   // UI Text hiển thị thông báo
-    public MoneyUI moneyUI;                    // UI hiển thị tiền, gán trong Inspector
+    [Header("Debug Settings")]
+    [Tooltip("Hiển thị log chi tiết")]
+    public bool enableDebugLog = true;
 
-    // Gọi khi người chơi click item
-    public void OnClickItem()
+    [Header("UI References (Optional)")]
+    [Tooltip("Text hiển thị thông báo (nếu có)")]
+    public Text statusText;
+    public void OnProductFetched(Product product)
     {
-        AddCoins();
-        ShowPurchaseMessage();
+    }
+    public void OnProductFetchFailed(ProductDefinition productDefinition, string reason)
+    {
+    }
+    public void OnPurchaseFetched(Order order)
+    {
+    }
+    public void OnOrderPending(PendingOrder pendingOrder)
+    {
+    }
+    public void OnOrderConfirmed(ConfirmedOrder confirmedOrder)
+    {
+    }
+    public void OnPurchaseFailed(FailedOrder failedOrder)
+    {
+    }
+    public void OnOrderDeferred(DeferredOrder deferredOrder)
+    {
+    }
+    public void OnPurchaseCompleteLegacy(Product product)
+    {
+    }
+    public void OnPurchaseFailedLegacy(Product product, PurchaseFailureDescription failureDescription)
+    {
     }
 
-    private void ShowPurchaseMessage()
+    private void HandleProductFetched(Product product)
     {
-        string msg = $"Bạn vừa nạp {coinAmount} coins từ {itemName}!";
-        Debug.Log(msg);
-        if (messageText != null)
-            messageText.text = msg;
-
-        // TODO: thêm animation, popup tự ẩn nếu muốn
+       
+    }
+    private void HandleProductFetchFailed(ProductDefinition productDefinition, string reason)
+    {
+    }
+    private void HandlePurchaseFetched(Order order)
+    {
+    }
+    private void HandleOrderPending(PendingOrder pendingOrder)
+    {
+    }
+    private void HandleOrderConfirmed(ConfirmedOrder confirmedOrder)
+    {
+    }
+    private void HandlePurchaseFailed(FailedOrder failedOrder)
+    {
+    }
+    private void HandleOrderDeferred(DeferredOrder deferredOrder)
+    {
     }
 
-    private void AddCoins()
+    /// <summary>
+    /// Xử lý Legacy Purchase Complete
+    /// </summary>
+    private void HandlePurchaseCompleteLegacy(Product product)
     {
-        if (PlayerMoneyManager.Instance != null)
-        {
-            // Cộng coin qua PlayerMoneyManager
-            PlayerMoneyManager.Instance.AddMoney(coinAmount);
-
-            // Cập nhật UI MoneyUI
-            if (moneyUI != null)
-            {
-                moneyUI.UpdateUI();
-            }
-
-            Debug.Log("Coins hiện tại: " + PlayerMoneyManager.Instance.GetMoney());
-        }
-        else
-        {
-            Debug.LogWarning("PlayerMoneyManager.Instance chưa được khởi tạo!");
-        }
+    }
+    private void HandlePurchaseFailedLegacy(Product product, PurchaseFailureDescription failureDescription)
+    {
+    }
+    private void ProcessProductReward(Product product)
+    {
     }
 }
