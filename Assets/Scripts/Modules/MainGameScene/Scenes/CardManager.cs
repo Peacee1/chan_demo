@@ -110,7 +110,7 @@ public class CardManager : MonoBehaviour
             ).SetEase(Ease.OutBack)
             .SetDelay(delay).OnComplete(() =>
             {
-                card.transform.GetChild(0).transform.DOLocalMove(new Vector2(0, 1.2f), 0.1f);
+                card.transform.GetChild(0).transform.DOLocalMove(new Vector2(0, 1.4f), 0.1f);
             });
         }
     }
@@ -403,6 +403,7 @@ public class CardManager : MonoBehaviour
     // ====== BỐC ======
     public void Boc()
     {
+        Debug.Log("Boc");
         if (hasEatenThisTurn)
         {
             PopMessageManager.Instance.Show("Đã ăn không được bốc!");
@@ -568,7 +569,7 @@ public class CardManager : MonoBehaviour
                 RotateMode.Fast
             ).SetEase(Ease.OutQuad).OnComplete(() =>
             {
-                card.transform.GetChild(0).transform.localPosition = new Vector3(0, 1.2f, 0);
+                card.transform.GetChild(0).transform.localPosition = new Vector3(0, 1.4f, 0);
             });
         }
     }

@@ -102,17 +102,10 @@ public class UManager : MonoBehaviour
     {
         panelU.SetActive(false);
         panelTinhDiem.SetActive(true);
-
-        // ✅ danh sách Ù đã chọn
         textDanhSachU.text = string.Join(", ", selectedUTypes);
-
-        // ✅ Cộng tiền khi người chơi Ù (lấy luôn reward và streak)
         int reward = PlayerMoneyManager.Instance.AddWinMoney();
         int streak = PlayerMoneyManager.Instance.GetWinStreak();
-
-        // ✅ hiển thị điểm thưởng
         textDiem.text = $"Điểm: +{reward}";
-
         Debug.Log($"Người chơi Ù! Thưởng {reward}, streak {streak}");
     }
     public void EnableUButton(bool enable)

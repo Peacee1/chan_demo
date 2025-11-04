@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (playerUI != null) playerUI.SetActive(false);
+        //if (playerUI != null) playerUI.SetActive(false);
         if (userTimerText != null) userTimerText.text = "";
         if (botTimerText != null) botTimerText.text = "";
     }
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         if (scene.name == "MainGameScene")
         {
             turnState = TurnState.playerTurn;
-            if (playerUI != null) playerUI.SetActive(true);
+            //if (playerUI != null) playerUI.SetActive(true);
 
             if (CardDealer.Instance != null)
             {
@@ -113,13 +113,13 @@ public class GameManager : MonoBehaviour
         {
             if (cardManager != null) cardManager.ResetTurnFlags();
             turnState = TurnState.botTurn;
-            if (playerUI != null) playerUI.SetActive(false);
+            //if (playerUI != null) playerUI.SetActive(false);
         }
         else
         {
             if (cardManager != null) cardManager.ResetTurnFlags();
             turnState = TurnState.playerTurn;
-            if (playerUI != null) playerUI.SetActive(true);
+            //if (playerUI != null) playerUI.SetActive(true);
         }
         StartTurn();
     }

@@ -52,11 +52,11 @@ public class CardData : MonoBehaviour
     {
         if (isOpen && canChoose)
         {
-            transform.GetChild(0).DOLocalMoveY(1.4f, 0.2f);
+            transform.GetChild(0).DOLocalMoveY(1.6f, 0.2f);
         }
     }
     public void OnCardUnselected()
     {
-        transform.GetChild(0).DOLocalMoveY(1.2f, 0.2f);
+        transform.GetChild(0).DOLocalMoveY(1.4f, 0.2f);
     }
 }
