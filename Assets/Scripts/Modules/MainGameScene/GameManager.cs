@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour
         if (ResultPanelUI.Instance != null)
             ResultPanelUI.Instance.ShowWin(reward, streak);
 
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
     }
 
     private void HandleLose()
@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
         if (ResultPanelUI.Instance != null)
             ResultPanelUI.Instance.ShowLose(100);
 
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
     }
     private void HandleBao()
     {
